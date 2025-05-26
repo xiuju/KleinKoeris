@@ -1,56 +1,54 @@
-
-<!DOCTYPE html>
-<html lang="de">
+<!DOCTYPE html><html lang="de">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sommerfreuden am Tonsee</title>
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            margin: 0;
-            background: #fefcf6;
-            color: #2e2e2e;
-            line-height: 1.8;
-        }
-        header {
-            background: linear-gradient(to right, #ffefa0, #ffe0c0);
-            padding: 2rem;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        .content {
-            padding: 2rem;
-        }
-        .gallery img {
-            width: 100%;
-            max-width: 600px;
-            margin: 1rem auto;
-            display: block;
-            border-radius: 14px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        section {
-            margin-bottom: 3rem;
-        }
-        audio {
-            margin-top: 2rem;
-            display: block;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himmelfahrt am Tonsee</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #fffbea;
+      color: #333;
+      padding: 2rem;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: auto;
+    }
+    header {
+      text-align: center;
+      background: linear-gradient(to right, #fef3c7, #fde68a);
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #b45309;
+    }
+    audio, iframe {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .section {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 0.75rem;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    }
+    .note {
+      color: #b91c1c;
+      font-style: italic;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Himmelfahrt am Tonsee</h1>
-        <p>Warum in die Ferne schweifen, wenn das Glück direkt vor der Tür liegt?</p>
-  <p class="note">Tipp: Aktiviere den Ton für unser Wochenendlied!</p>
-    </header>
-    <div class="content">
-        <section class="intro">
+  <header>
+    <h1>Himmelfahrt am Tonsee</h1>
+    <p>Warum in die Ferne schweifen, wenn das Glück so nah liegt?</p>
+    <p class="note">Tipp: Aktiviere den Ton für unser Wochenendlied!</p>
+  </header>  
+
+
+<section class="intro">
             <p>Ein kleines Paradies wartet – zwischen rauschendem Wald, glitzerndem See und einem Garten voller Abenteuer. Die Datsche in Klein Köris wird für ein Wochenende zur Bühne des Sommers: Lachen, Baden, Spielen, Grillen – und einfach das Leben feiern!</p>
         </section>
 
@@ -68,8 +66,10 @@
         </section>
 
         <section class="food">
-            <h2>Was gibt’s zu futtern?</h2>
-            <p>Für hungrige Kinderbäuche gibt es das Beste: cremiger Milchreis, bunte Ofengemüseplatten, Nudeln mit Käsesoße, kühle Eisbecher im Schatten. Und für alle Schleckermäuler dazwischen – immer ein kleiner Snack zur Hand.</p>
+            <h2>Kulinarisches</h2>
+            <p>FFür die kleinen Feinschmecker gibt es täglich besondere Highlights: Nudeln, Eis, Milchreis, Ofengemüse und jede
+      Menge Leckereien, die Kinderaugen leuchten lassen. Und für die Großen? Dorade vom Grill, knackige Salate und ein
+      kaltes Getränk unterm Sternenhimmel.</p>
         </section>
 
         <section class="location">
@@ -77,13 +77,14 @@
             <p>Klein Köris – ein stiller Ort zwischen Wäldern und Seen im Süden Brandenburgs. Der Tonsee, geheimnisvoll und klar, lädt zum Planschen ein. In der Umgebung: Wanderwege, kleine Strände, ein Eisstand und jede Menge Abenteuer. Wer will da noch nach Fanø oder Argentinien?</p>
         </section>
 
-        <section class="song">
+
+  <section class="section">
     <h2>Unser Song zum Wochenende</h2>
     <audio controls>
       <source src="https://cdn1.aisonggenerator.io/7/audios/bdc5bf81-21fa-48ba-b05e-31ce499473eb.mp3" type="audio/mpeg" />
       Dein Browser unterstützt kein Audio-Element.
     </audio>
-  </section>  <section class="Anfahrt">
+  </section>  <section class="section">
     <h2>Anfahrt</h2>
     <p>
       Starte am Richardplatz, 12055 Berlin und folge der Route bis Birkenweg, 15746 Groß Köris.
@@ -92,7 +93,7 @@
       src="https://www.google.com/maps/embed/v1/directions?key=YOUR_GOOGLE_MAPS_API_KEY&origin=Richardplatz+12055+Berlin&destination=Birkenweg+15746+Groß+Köris"
       allowfullscreen>
     </iframe>
-  </section>  <section class="Wetter">
+  </section>  <section class="section">
     <h2>Wettervorhersage</h2>
     <p>So sieht das Wetter aus (automatisch aktualisiert):</p>
     <iframe
@@ -104,7 +105,5 @@
       style="width: 100%; height: 420px">
     </iframe>
   </section>
-
-    </div>
 </body>
 </html>
